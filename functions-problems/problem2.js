@@ -7,8 +7,8 @@ store it inside of a variable;
 step 3: define a variable named vowelCount and set the initial value to 0;
 step 4: define a variable that defines what a vowel is;
 step 5: start looping through the array of letters to see if each letter is a vowel;
-step 6: increase the numberOfVowels variable by one each time our letter is a vowel;
-step 7: return numberOfVowels;
+step 6: increase the vowelCount variable by one each time our letter is a vowel;
+step 7: return vowelCount;
 */
 
 
