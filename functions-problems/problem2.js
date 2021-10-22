@@ -13,8 +13,8 @@ step 7: return vowelCount;
 
 
 function vowelCount(str) {
-  var vowelCount = 0;
-  var vowels = ["a", "e", "i", "o", "u"] 
+  let vowelCount = 0;
+  const vowels = ["a", "e", "i", "o", "u"] 
   for(var i = 0; i < str.length; i++){
     if (vowels.indexOf(str[i]) > -1){
       vowelCount++;
@@ -24,6 +24,6 @@ function vowelCount(str) {
   return "There are " + vowelCount + " vowels in this sentence";
 }
 
-console.log(vowelCount("using roots technology to become a professional developer."));
+console.log(vowelCount("Using roots technology to become a professional developer.".toLowerCase()));
 
 // 21
