@@ -12,8 +12,8 @@ step 7: return vowelCount;
 
 
 function vowelCount(str) {
-  let vowelCount = 0;
   str = str.toLowerCase();
+  let vowelCount = 0;
   const vowels = ["a", "e", "i", "o", "u"] 
   for(var i = 0; i < str.length; i++){
     if (vowels.indexOf(str[i]) > -1){

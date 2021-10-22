@@ -9,8 +9,8 @@ step 5: log the function with the string and letter to the console;
 
 
 function findOccurences(str, letter){
-  let count = 0;
   str = str.toLowerCase();
+  let count = 0;
   for(let i = 0; i < str.length; i++){
     if(str[i] === letter){
       count++;
