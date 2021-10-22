@@ -19,3 +19,5 @@ function findOccurences(str, letter){
 }
 
 console.log("The targeted letter occurs " + findOccurences("how many times does this letter occur?", "o") + " times in this string!");
+
+// "The targeted letter occurs 3 times in this string!"
