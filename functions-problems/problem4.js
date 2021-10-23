@@ -20,4 +20,5 @@ function palindrome(str) {
 console.log(palindrome('RAceCar')); 
 // true
   
-  
+console.log(palindrome('Roots tech'));
+// false
