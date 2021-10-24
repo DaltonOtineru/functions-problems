@@ -9,10 +9,9 @@ step 5: log the function with the string and letter to the console;
 
 
 function findOccurences(str, letter){
-  str = str.toLowerCase();
   let count = 0;
   for(let i = 0; i < str.length; i++){
-    if(str[i] === letter){
+    if(str.toLowerCase()[i] === letter.toLowerCase()){
       count++;
     }
   }
@@ -22,3 +21,4 @@ function findOccurences(str, letter){
 console.log("The targeted letter occurs " + findOccurences("How many times dOes this letter occur?", "o") + " times in this string!");
 
 // "The targeted letter occurs 3 times in this string!"
+  

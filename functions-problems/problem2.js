@@ -1,4 +1,3 @@
-
 /*
 step 1: define a javascript function that accepts a string as a parameter;
 step 2: split the string that is passed in, into an array of each individual letter & 
@@ -12,11 +11,10 @@ step 7: return vowelCount;
 
 
 function vowelCount(str) {
-  str = str.toLowerCase();
   let vowelCount = 0;
   const vowels = ["a", "e", "i", "o", "u"] 
-  for(var i = 0; i < str.length; i++){
-    if (vowels.indexOf(str[i]) > -1){
+  for(let i = 0; i < str.length; i++){
+    if (vowels.indexOf(str.toLowerCase()[i]) > -1){
       vowelCount++;
     }
   }
@@ -24,6 +22,7 @@ function vowelCount(str) {
   return "There are " + vowelCount + " vowels in this sentence";
 }
 
-console.log(vowelCount("Using roots technology to become a professional developer."));
+console.log(vowelCount("Using rOOts technOlogy to becOmE a professional devElopEr."));
 
 // "There are 21 vowels in this sentence"
+  
